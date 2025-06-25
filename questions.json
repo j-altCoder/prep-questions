@@ -1,0 +1,167 @@
+[
+  {
+    "id": "1",
+    "question": "Explain the virtual DOM in React and how it improves performance",
+    "answer": "The virtual DOM is a JavaScript representation of the actual DOM. React uses it to optimize rendering by comparing the virtual DOM tree with the previous version (diffing) and only updating the parts that have changed (reconciliation). This reduces expensive DOM operations and improves performance.",
+    "subject": "MERN Stack",
+    "category": "Frontend",
+    "subcategory": "React",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "2",
+    "question": "What are React Hooks and why were they introduced?",
+    "answer": "React Hooks are functions that let you use state and other React features in functional components. They were introduced to solve problems like wrapper hell, huge components, and confusing classes. Hooks like useState, useEffect, and useContext make code more reusable and easier to test.",
+    "subject": "MERN Stack",
+    "category": "Frontend",
+    "subcategory": "React",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "3",
+    "question": "Explain closures in JavaScript with an example",
+    "answer": "A closure is when a function has access to variables from its outer scope even after the outer function has returned.\n\nExample:\nfunction outer() {\n  let count = 0;\n  return function inner() {\n    count++;\n    return count;\n  };\n}\nThe inner function has access to 'count' even after outer() finishes executing.",
+    "subject": "MERN Stack",
+    "category": "Frontend",
+    "subcategory": "JavaScript",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "4",
+    "question": "What is the difference between authentication and authorization?",
+    "answer": "Authentication verifies who you are (login with username/password), while authorization determines what you can access (permissions/roles). Authentication comes first, then authorization checks if the authenticated user has permission for specific resources or actions.",
+    "subject": "MERN Stack",
+    "category": "Backend",
+    "subcategory": "Authentication",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "5",
+    "question": "Explain RESTful API principles",
+    "answer": "REST principles include:\n1) Stateless - each request contains all needed info,\n2) Client-server separation,\n3) Cacheable responses,\n4) Uniform interface with standard HTTP methods (GET, POST, PUT, DELETE),\n5) Layered system architecture,\n6) Resource-based URLs (/users/123).",
+    "subject": "MERN Stack",
+    "category": "Backend",
+    "subcategory": "APIs",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "6",
+    "question": "What is database indexing and why is it important?",
+    "answer": "Database indexing creates a data structure that improves query performance by providing faster access paths to data. Like a book index, it points to where data is located without scanning the entire table. Indexes speed up SELECT queries but can slow down INSERT/UPDATE operations.",
+    "subject": "MERN Stack",
+    "category": "Database",
+    "subcategory": "Database Design",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "7",
+    "question": "How would you design a URL shortener like bit.ly?",
+    "answer": "Key components:\n1) URL encoding service using base62 encoding\n2) Database to store URL mappings\n3) Cache layer (Redis) for popular URLs\n4) Load balancer for high availability\n5) Analytics service\n6) Rate limiting\n7) Custom domain support\n\nConsider database sharding for scale.",
+    "subject": "System Design",
+    "category": "Architecture",
+    "subcategory": "Case Studies",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "8",
+    "question": "Explain the CAP theorem",
+    "answer": "CAP theorem states that distributed systems can only guarantee 2 out of 3:\n- Consistency (all nodes see same data)\n- Availability (system remains operational)\n- Partition tolerance (system continues despite network failures)\n\nExamples:\n- CP systems: MongoDB\n- AP systems: Cassandra\n- CA systems: traditional RDBMS",
+    "subject": "System Design",
+    "category": "Architecture",
+    "subcategory": "Database Theory",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "9",
+    "question": "What is load balancing and what are the different types?",
+    "answer": "Load balancing distributes incoming requests across multiple servers.\nTypes:\n1) Round Robin - requests distributed sequentially\n2) Least Connections - routes to server with fewest active connections\n3) IP Hash - routes based on client IP\n4) Weighted - assigns different weights to servers based on capacity",
+    "subject": "System Design",
+    "category": "Scalability",
+    "subcategory": "Load Balancing",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "10",
+    "question": "Tell me about a time you had to work with a difficult team member",
+    "answer": "I once worked with a colleague who was resistant to feedback and often missed deadlines. I approached them privately to understand their perspective and discovered they were overwhelmed with tasks. We worked together to prioritize work and establish better communication. This improved both our working relationship and project outcomes.",
+    "subject": "Behavioral",
+    "category": "Communication",
+    "subcategory": "Collaboration",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "11",
+    "question": "Describe a challenging project you led and how you handled it",
+    "answer": "I led a project to migrate our legacy system to a microservices architecture. The challenge was coordinating multiple teams and ensuring zero downtime. I created a detailed migration plan, established clear communication channels, implemented feature flags for gradual rollout, and conducted thorough testing. We completed the migration successfully with minimal disruption.",
+    "subject": "Behavioral",
+    "category": "Leadership",
+    "subcategory": "Team Management",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "12",
+    "question": "How do you handle tight deadlines and pressure?",
+    "answer": "I prioritize tasks by impact and urgency, break large tasks into smaller manageable pieces, communicate early about potential delays, and focus on delivering the most critical features first. I also maintain work-life balance to stay productive under pressure and ask for help when needed.",
+    "subject": "Behavioral",
+    "category": "Communication",
+    "subcategory": "Problem Solving",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "13",
+    "question": "Tell me about yourself",
+    "answer": "I'm a passionate full-stack developer with 3+ years of experience building scalable web applications. I specialize in the MERN stack and have led several successful projects from conception to deployment. I'm particularly interested in system design and enjoy solving complex technical challenges while mentoring junior developers.",
+    "subject": "General",
+    "category": "Background",
+    "subcategory": "Experience",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "14",
+    "question": "Why do you want to work here?",
+    "answer": "I'm excited about your company's mission to democratize access to technology education. Your focus on innovation and the opportunity to work with cutting-edge technologies aligns perfectly with my career goals. I'm particularly impressed by your engineering culture and the impact your products have on millions of users worldwide.",
+    "subject": "General",
+    "category": "Background",
+    "subcategory": "Motivation",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  },
+  {
+    "id": "15",
+    "question": "What questions do you have for us?",
+    "answer": "1) What does a typical day look like for this role?\n2) What are the biggest technical challenges the team is facing?\n3) How do you measure success in this position?\n4) What opportunities are there for professional development?\n5) Can you tell me about the team culture and collaboration style?",
+    "subject": "General",
+    "category": "Background",
+    "subcategory": "Questions",
+    "completed": false,
+    "bookmarked": false,
+    "status": "new"
+  }
+]

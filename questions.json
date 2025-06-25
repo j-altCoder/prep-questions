@@ -1,167 +1,850 @@
 [
   {
-    "id": "1",
-    "question": "Explain the virtual DOM in React and how it improves performance",
-    "answer": "The virtual DOM is a JavaScript representation of the actual DOM. React uses it to optimize rendering by comparing the virtual DOM tree with the previous version (diffing) and only updating the parts that have changed (reconciliation). This reduces expensive DOM operations and improves performance.",
-    "subject": "MERN Stack",
-    "category": "Frontend",
-    "subcategory": "React",
-    "completed": false,
+    "id": "lc-243",
+    "type": "coding",
+    "question": "Shortest Word Distance",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array",
+    "subSubcategory": "traverse",
+    "status": "new",
     "bookmarked": false,
-    "status": "new"
+    "difficulty": "easy",
+    "tags": ["array", "two-pointer", "distance"],
+    "codeSnippet": "",
+    "leetcodeId": "shortest-word-distance",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "243",
+        "slug": "shortest-word-distance",
+        "url": "https://leetcode.com/problems/shortest-word-distance/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode",
+        "id": "",
+        "title": "",
+        "url": "",
+        "ispremium": false
+      },
+      {
+        "platform": "NeetCode",
+        "url": "",
+        "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks",
+        "title": "",
+        "url": "",
+        "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:05:00.000Z",
+    "updatedAt": "2025-06-25T10:05:00.000Z",
+    "related": [],
+    "company": []
   },
   {
-    "id": "2",
-    "question": "What are React Hooks and why were they introduced?",
-    "answer": "React Hooks are functions that let you use state and other React features in functional components. They were introduced to solve problems like wrapper hell, huge components, and confusing classes. Hooks like useState, useEffect, and useContext make code more reusable and easier to test.",
-    "subject": "MERN Stack",
-    "category": "Frontend",
-    "subcategory": "React",
-    "completed": false,
+    "id": "lc-169",
+    "type": "coding",
+    "question": "Majority Element",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array",
+    "subSubcategory": "use Boyer-Moore Voting Algorithm",
+    "status": "new",
     "bookmarked": false,
-    "status": "new"
+    "difficulty": "easy",
+    "tags": ["array", "hashmap", "voting"],
+    "codeSnippet": "",
+    "leetcodeId": "majority-element",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "169",
+        "slug": "majority-element",
+        "url": "https://leetcode.com/problems/majority-element/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode",
+        "id": "",
+        "title": "",
+        "url": "",
+        "ispremium": false
+      },
+      {
+        "platform": "NeetCode",
+        "url": "",
+        "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks",
+        "title": "",
+        "url": "",
+        "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:05:00.000Z",
+    "updatedAt": "2025-06-25T10:05:00.000Z",
+    "related": [],
+    "company": []
   },
   {
-    "id": "3",
-    "question": "Explain closures in JavaScript with an example",
-    "answer": "A closure is when a function has access to variables from its outer scope even after the outer function has returned.\n\nExample:\nfunction outer() {\n  let count = 0;\n  return function inner() {\n    count++;\n    return count;\n  };\n}\nThe inner function has access to 'count' even after outer() finishes executing.",
-    "subject": "MERN Stack",
-    "category": "Frontend",
-    "subcategory": "JavaScript",
-    "completed": false,
+    "id": "lc-229",
+    "type": "coding",
+    "question": "Majority Element II",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array",
+    "subSubcategory": "use Boyer-Moore Voting Algorithm",
+    "status": "new",
     "bookmarked": false,
-    "status": "new"
+    "difficulty": "medium",
+    "tags": ["array", "voting", "hashmap"],
+    "codeSnippet": "",
+    "leetcodeId": "majority-element-ii",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "229",
+        "slug": "majority-element-ii",
+        "url": "https://leetcode.com/problems/majority-element-ii/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode",
+        "id": "",
+        "title": "",
+        "url": "",
+        "ispremium": false
+      },
+      {
+        "platform": "NeetCode",
+        "url": "",
+        "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks",
+        "title": "",
+        "url": "",
+        "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:05:00.000Z",
+    "updatedAt": "2025-06-25T10:05:00.000Z",
+    "related": [],
+    "company": []
   },
   {
-    "id": "4",
-    "question": "What is the difference between authentication and authorization?",
-    "answer": "Authentication verifies who you are (login with username/password), while authorization determines what you can access (permissions/roles). Authentication comes first, then authorization checks if the authenticated user has permission for specific resources or actions.",
-    "subject": "MERN Stack",
-    "category": "Backend",
-    "subcategory": "Authentication",
-    "completed": false,
-    "bookmarked": false,
-    "status": "new"
-  },
-  {
-    "id": "5",
-    "question": "Explain RESTful API principles",
-    "answer": "REST principles include:\n1) Stateless - each request contains all needed info,\n2) Client-server separation,\n3) Cacheable responses,\n4) Uniform interface with standard HTTP methods (GET, POST, PUT, DELETE),\n5) Layered system architecture,\n6) Resource-based URLs (/users/123).",
-    "subject": "MERN Stack",
-    "category": "Backend",
-    "subcategory": "APIs",
-    "completed": false,
-    "bookmarked": false,
-    "status": "new"
-  },
-  {
-    "id": "6",
-    "question": "What is database indexing and why is it important?",
-    "answer": "Database indexing creates a data structure that improves query performance by providing faster access paths to data. Like a book index, it points to where data is located without scanning the entire table. Indexes speed up SELECT queries but can slow down INSERT/UPDATE operations.",
-    "subject": "MERN Stack",
-    "category": "Database",
-    "subcategory": "Database Design",
-    "completed": false,
-    "bookmarked": false,
-    "status": "new"
-  },
-  {
-    "id": "7",
-    "question": "How would you design a URL shortener like bit.ly?",
-    "answer": "Key components:\n1) URL encoding service using base62 encoding\n2) Database to store URL mappings\n3) Cache layer (Redis) for popular URLs\n4) Load balancer for high availability\n5) Analytics service\n6) Rate limiting\n7) Custom domain support\n\nConsider database sharding for scale.",
-    "subject": "System Design",
-    "category": "Architecture",
-    "subcategory": "Case Studies",
-    "completed": false,
-    "bookmarked": false,
-    "status": "new"
-  },
-  {
-    "id": "8",
-    "question": "Explain the CAP theorem",
-    "answer": "CAP theorem states that distributed systems can only guarantee 2 out of 3:\n- Consistency (all nodes see same data)\n- Availability (system remains operational)\n- Partition tolerance (system continues despite network failures)\n\nExamples:\n- CP systems: MongoDB\n- AP systems: Cassandra\n- CA systems: traditional RDBMS",
-    "subject": "System Design",
-    "category": "Architecture",
-    "subcategory": "Database Theory",
-    "completed": false,
-    "bookmarked": false,
-    "status": "new"
-  },
-  {
-    "id": "9",
-    "question": "What is load balancing and what are the different types?",
-    "answer": "Load balancing distributes incoming requests across multiple servers.\nTypes:\n1) Round Robin - requests distributed sequentially\n2) Least Connections - routes to server with fewest active connections\n3) IP Hash - routes based on client IP\n4) Weighted - assigns different weights to servers based on capacity",
-    "subject": "System Design",
-    "category": "Scalability",
-    "subcategory": "Load Balancing",
-    "completed": false,
-    "bookmarked": false,
-    "status": "new"
-  },
-  {
-    "id": "10",
-    "question": "Tell me about a time you had to work with a difficult team member",
-    "answer": "I once worked with a colleague who was resistant to feedback and often missed deadlines. I approached them privately to understand their perspective and discovered they were overwhelmed with tasks. We worked together to prioritize work and establish better communication. This improved both our working relationship and project outcomes.",
-    "subject": "Behavioral",
-    "category": "Communication",
-    "subcategory": "Collaboration",
-    "completed": false,
-    "bookmarked": false,
-    "status": "new"
-  },
-  {
-    "id": "11",
-    "question": "Describe a challenging project you led and how you handled it",
-    "answer": "I led a project to migrate our legacy system to a microservices architecture. The challenge was coordinating multiple teams and ensuring zero downtime. I created a detailed migration plan, established clear communication channels, implemented feature flags for gradual rollout, and conducted thorough testing. We completed the migration successfully with minimal disruption.",
-    "subject": "Behavioral",
-    "category": "Leadership",
-    "subcategory": "Team Management",
-    "completed": false,
-    "bookmarked": false,
-    "status": "new"
-  },
-  {
-    "id": "12",
-    "question": "How do you handle tight deadlines and pressure?",
-    "answer": "I prioritize tasks by impact and urgency, break large tasks into smaller manageable pieces, communicate early about potential delays, and focus on delivering the most critical features first. I also maintain work-life balance to stay productive under pressure and ask for help when needed.",
-    "subject": "Behavioral",
-    "category": "Communication",
-    "subcategory": "Problem Solving",
-    "completed": false,
-    "bookmarked": false,
-    "status": "new"
-  },
-  {
-    "id": "13",
-    "question": "Tell me about yourself",
-    "answer": "I'm a passionate full-stack developer with 3+ years of experience building scalable web applications. I specialize in the MERN stack and have led several successful projects from conception to deployment. I'm particularly interested in system design and enjoy solving complex technical challenges while mentoring junior developers.",
-    "subject": "General",
-    "category": "Background",
-    "subcategory": "Experience",
-    "completed": false,
-    "bookmarked": false,
-    "status": "new"
-  },
-  {
-    "id": "14",
-    "question": "Why do you want to work here?",
-    "answer": "I'm excited about your company's mission to democratize access to technology education. Your focus on innovation and the opportunity to work with cutting-edge technologies aligns perfectly with my career goals. I'm particularly impressed by your engineering culture and the impact your products have on millions of users worldwide.",
-    "subject": "General",
-    "category": "Background",
-    "subcategory": "Motivation",
-    "completed": false,
-    "bookmarked": false,
-    "status": "new"
-  },
-  {
-    "id": "15",
-    "question": "What questions do you have for us?",
-    "answer": "1) What does a typical day look like for this role?\n2) What are the biggest technical challenges the team is facing?\n3) How do you measure success in this position?\n4) What opportunities are there for professional development?\n5) Can you tell me about the team culture and collaboration style?",
-    "subject": "General",
-    "category": "Background",
-    "subcategory": "Questions",
-    "completed": false,
-    "bookmarked": false,
-    "status": "new"
-  }
+  "id": "lc-189",
+  "type": "coding",
+  "question": "Rotate Array",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "use Reverse Technique",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "medium",
+  "tags": ["array", "reverse", "rotate"],
+  "codeSnippet": "",
+  "leetcodeId": "rotate-array",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "189",
+      "slug": "rotate-array",
+      "url": "https://leetcode.com/problems/rotate-array/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-362",
+  "type": "system-design",
+  "question": "Design Hit Counter",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "use Circular Array",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "medium",
+  "tags": ["design", "array", "queue", "circular buffer"],
+  "codeSnippet": "",
+  "leetcodeId": "design-hit-counter",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "362",
+      "slug": "design-hit-counter",
+      "url": "https://leetcode.com/problems/design-hit-counter/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-41",
+  "type": "coding",
+  "question": "First Missing Positive",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "specific Range Array (Cyclic Sort)",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "hard",
+  "tags": ["array", "cyclic sort", "index mapping"],
+  "codeSnippet": "",
+  "leetcodeId": "first-missing-positive",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "41",
+      "slug": "first-missing-positive",
+      "url": "https://leetcode.com/problems/first-missing-positive/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-442",
+  "type": "coding",
+  "question": "Find All Duplicates in an Array",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "specific Range Array (Cyclic Sort)",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "medium",
+  "tags": ["array", "cyclic sort", "duplicates"],
+  "codeSnippet": "",
+  "leetcodeId": "find-all-duplicates-in-an-array",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "442",
+      "slug": "find-all-duplicates-in-an-array",
+      "url": "https://leetcode.com/problems/find-all-duplicates-in-an-array/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-448",
+  "type": "coding",
+  "question": "Find All Numbers Disappeared in an Array",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "specific Range Array (Cyclic Sort)",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "easy",
+  "tags": ["array", "cyclic sort", "missing numbers"],
+  "codeSnippet": "",
+  "leetcodeId": "find-all-numbers-disappeared-in-an-array",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "448",
+      "slug": "find-all-numbers-disappeared-in-an-array",
+      "url": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-287",
+  "type": "coding",
+  "question": "Find the Duplicate Number",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "specific Range Array (Cyclic Sort)",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "medium",
+  "tags": ["array", "cyclic sort", "linked list", "floyd"],
+  "codeSnippet": "",
+  "leetcodeId": "find-the-duplicate-number",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "287",
+      "slug": "find-the-duplicate-number",
+      "url": "https://leetcode.com/problems/find-the-duplicate-number/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-845",
+  "type": "coding",
+  "question": "Longest Mountain in Array",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "use Finite State Machine",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "medium",
+  "tags": ["array", "state machine", "two-pointer"],
+  "codeSnippet": "",
+  "leetcodeId": "longest-mountain-in-array",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "845",
+      "slug": "longest-mountain-in-array",
+      "url": "https://leetcode.com/problems/longest-mountain-in-array/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-370",
+  "type": "coding",
+  "question": "Range Addition",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "use Difference Array",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "medium",
+  "tags": ["array", "difference array", "prefix sum"],
+  "codeSnippet": "",
+  "leetcodeId": "range-addition",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "370",
+      "slug": "range-addition",
+      "url": "https://leetcode.com/problems/range-addition/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-849",
+  "type": "coding",
+  "question": "Maximize Distance to Closest Person",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "count Continuous Elements",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "easy",
+  "tags": ["array", "greedy", "gap counting"],
+  "codeSnippet": "",
+  "leetcodeId": "maximize-distance-to-closest-person",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "849",
+      "slug": "maximize-distance-to-closest-person",
+      "url": "https://leetcode.com/problems/maximize-distance-to-closest-person/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-384",
+  "type": "coding",
+  "question": "Shuffle an Array",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "use Knuth Shuffle",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "medium",
+  "tags": ["array", "random", "shuffle", "knuth"],
+  "codeSnippet": "",
+  "leetcodeId": "shuffle-an-array",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "384",
+      "slug": "shuffle-an-array",
+      "url": "https://leetcode.com/problems/shuffle-an-array/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-398",
+  "type": "coding",
+  "question": "Random Pick Index",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "use Reservoir Sampling",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "medium",
+  "tags": ["array", "random", "reservoir sampling"],
+  "codeSnippet": "",
+  "leetcodeId": "random-pick-index",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "398",
+      "slug": "random-pick-index",
+      "url": "https://leetcode.com/problems/random-pick-index/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-1535",
+  "type": "coding",
+  "question": "Find the Winner of an Array Game",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "simulation",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "medium",
+  "tags": ["array", "simulation", "deque"],
+  "codeSnippet": "",
+  "leetcodeId": "find-the-winner-of-an-array-game",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "1535",
+      "slug": "find-the-winner-of-an-array-game",
+      "url": "https://leetcode.com/problems/find-the-winner-of-an-array-game/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-280",
+  "type": "coding",
+  "question": "Wiggle Sort",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "use Swap",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "medium",
+  "tags": ["array", "sorting", "wiggle", "greedy"],
+  "codeSnippet": "",
+  "leetcodeId": "wiggle-sort",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "280",
+      "slug": "wiggle-sort",
+      "url": "https://leetcode.com/problems/wiggle-sort/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-1472",
+  "type": "system-design",
+  "question": "Design Browser History",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "maintain Arrays Range Dynamically",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "medium",
+  "tags": ["array", "design", "stack", "linked list"],
+  "codeSnippet": "",
+  "leetcodeId": "design-browser-history",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "1472",
+      "slug": "design-browser-history",
+      "url": "https://leetcode.com/problems/design-browser-history/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+},
+{
+  "id": "lc-163",
+  "type": "coding",
+  "question": "Missing Ranges",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array",
+  "subSubcategory": "preprocess the Array",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "easy",
+  "tags": ["array", "range", "gap", "preprocessing"],
+  "codeSnippet": "",
+  "leetcodeId": "missing-ranges",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "163",
+      "slug": "missing-ranges",
+      "url": "https://leetcode.com/problems/missing-ranges/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode",
+      "id": "",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "NeetCode",
+      "url": "",
+      "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks",
+      "title": "",
+      "url": "",
+      "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:05:00.000Z",
+  "updatedAt": "2025-06-25T10:05:00.000Z",
+  "related": [],
+  "company": []
+}
+
+
 ]

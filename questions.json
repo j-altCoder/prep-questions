@@ -844,7 +844,463 @@
   "updatedAt": "2025-06-25T10:05:00.000Z",
   "related": [],
   "company": []
-}
+},
+  {
+    "id": "lc-56",
+    "type": "coding",
+    "question": "Merge Intervals",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array line sweep",
+    "subSubcategory": "compare Two Intervals Each Round",
+    "status": "new",
+    "bookmarked": false,
+    "difficulty": "medium",
+    "tags": ["array", "interval", "merge", "greedy"],
+    "codeSnippet": "",
+    "leetcodeId": "merge-intervals",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "56",
+        "slug": "merge-intervals",
+        "url": "https://leetcode.com/problems/merge-intervals/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode", "id": "", "title": "", "url": "", "ispremium": false
+      },
+      {
+        "platform": "NeetCode", "url": "", "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks", "title": "", "url": "", "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:10:00.000Z",
+    "updatedAt": "2025-06-25T10:10:00.000Z",
+    "related": [],
+    "company": []
+  },
+  {
+    "id": "lc-57",
+    "type": "coding",
+    "question": "Insert Interval",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array line sweep",
+    "subSubcategory": "compare Two Intervals Each Round",
+    "status": "new",
+    "bookmarked": false,
+    "difficulty": "medium",
+    "tags": ["array", "interval", "insert", "greedy"],
+    "codeSnippet": "",
+    "leetcodeId": "insert-interval",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "57",
+        "slug": "insert-interval",
+        "url": "https://leetcode.com/problems/insert-interval/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode", "id": "", "title": "", "url": "", "ispremium": false
+      },
+      {
+        "platform": "NeetCode", "url": "", "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks", "title": "", "url": "", "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:10:00.000Z",
+    "updatedAt": "2025-06-25T10:10:00.000Z",
+    "related": [],
+    "company": []
+  },
+  {
+    "id": "lc-1272",
+    "type": "coding",
+    "question": "Remove Interval",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array line sweep",
+    "subSubcategory": "compare Two Intervals Each Round",
+    "status": "new",
+    "bookmarked": false,
+    "difficulty": "medium",
+    "tags": ["array", "interval", "remove", "greedy"],
+    "codeSnippet": "",
+    "leetcodeId": "remove-interval",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "1272",
+        "slug": "remove-interval",
+        "url": "https://leetcode.com/problems/remove-interval/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode", "id": "", "title": "", "url": "", "ispremium": false
+      },
+      {
+        "platform": "NeetCode", "url": "", "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks", "title": "", "url": "", "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:10:00.000Z",
+    "updatedAt": "2025-06-25T10:10:00.000Z",
+    "related": [],
+    "company": []
+  }, 
+  {
+    "id": "lc-252",
+    "type": "coding",
+    "question": "Meeting Rooms",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array line sweep",
+    "subSubcategory": "compare Two Intervals Each Round",
+    "status": "new",
+    "bookmarked": false,
+    "difficulty": "easy",
+    "tags": ["array", "interval", "sort", "overlap"],
+    "codeSnippet": "",
+    "leetcodeId": "meeting-rooms",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "252",
+        "slug": "meeting-rooms",
+        "url": "https://leetcode.com/problems/meeting-rooms/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode", "id": "", "title": "", "url": "", "ispremium": false
+      },
+      {
+        "platform": "NeetCode", "url": "", "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks", "title": "", "url": "", "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:15:00.000Z",
+    "updatedAt": "2025-06-25T10:15:00.000Z",
+    "related": [],
+    "company": []
+  },
+  {
+    "id": "lc-435",
+    "type": "coding",
+    "question": "Non-overlapping Intervals",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array line sweep",
+    "subSubcategory": "compare Two Intervals Each Round",
+    "status": "new",
+    "bookmarked": false,
+    "difficulty": "medium",
+    "tags": ["array", "interval", "greedy"],
+    "codeSnippet": "",
+    "leetcodeId": "non-overlapping-intervals",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "435",
+        "slug": "non-overlapping-intervals",
+        "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode", "id": "", "title": "", "url": "", "ispremium": false
+      },
+      {
+        "platform": "NeetCode", "url": "", "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks", "title": "", "url": "", "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:15:00.000Z",
+    "updatedAt": "2025-06-25T10:15:00.000Z",
+    "related": [],
+    "company": []
+  },
+  {
+    "id": "lc-1288",
+    "type": "coding",
+    "question": "Remove Covered Intervals",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array line sweep",
+    "subSubcategory": "compare Two Intervals Each Round",
+    "status": "new",
+    "bookmarked": false,
+    "difficulty": "medium",
+    "tags": ["array", "interval", "greedy", "coverage"],
+    "codeSnippet": "",
+    "leetcodeId": "remove-covered-intervals",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "1288",
+        "slug": "remove-covered-intervals",
+        "url": "https://leetcode.com/problems/remove-covered-intervals/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode", "id": "", "title": "", "url": "", "ispremium": false
+      },
+      {
+        "platform": "NeetCode", "url": "", "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks", "title": "", "url": "", "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:15:00.000Z",
+    "updatedAt": "2025-06-25T10:15:00.000Z",
+    "related": [],
+    "company": []
+  },
+  {
+    "id": "lc-452",
+    "type": "coding",
+    "question": "Minimum Number of Arrows to Burst Balloons",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array line sweep",
+    "subSubcategory": "compare Two Intervals Each Round",
+    "status": "new",
+    "bookmarked": false,
+    "difficulty": "medium",
+    "tags": ["array", "interval", "greedy", "sort"],
+    "codeSnippet": "",
+    "leetcodeId": "minimum-number-of-arrows-to-burst-balloons",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "452",
+        "slug": "minimum-number-of-arrows-to-burst-balloons",
+        "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode", "id": "", "title": "", "url": "", "ispremium": false
+      },
+      {
+        "platform": "NeetCode", "url": "", "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks", "title": "", "url": "", "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:20:00.000Z",
+    "updatedAt": "2025-06-25T10:20:00.000Z",
+    "related": [],
+    "company": []
+  },
+  {
+    "id": "lc-757",
+    "type": "coding",
+    "question": "Set Intersection Size At Least Two",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array line sweep",
+    "subSubcategory": "compare Two Intervals Each Round",
+    "status": "new",
+    "bookmarked": false,
+    "difficulty": "hard",
+    "tags": ["array", "interval", "greedy", "intersection"],
+    "codeSnippet": "",
+    "leetcodeId": "set-intersection-size-at-least-two",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "757",
+        "slug": "set-intersection-size-at-least-two",
+        "url": "https://leetcode.com/problems/set-intersection-size-at-least-two/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode", "id": "", "title": "", "url": "", "ispremium": false
+      },
+      {
+        "platform": "NeetCode", "url": "", "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks", "title": "", "url": "", "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:20:00.000Z",
+    "updatedAt": "2025-06-25T10:20:00.000Z",
+    "related": [],
+    "company": []
+  },
+  {
+    "id": "lc-986",
+    "type": "coding",
+    "question": "Interval List Intersections",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array line sweep",
+    "subSubcategory": "compare Two Intervals Each Round",
+    "status": "new",
+    "bookmarked": false,
+    "difficulty": "easy",
+    "tags": ["array", "interval", "two pointer"],
+    "codeSnippet": "",
+    "leetcodeId": "interval-list-intersections",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "986",
+        "slug": "interval-list-intersections",
+        "url": "https://leetcode.com/problems/interval-list-intersections/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode", "id": "", "title": "", "url": "", "ispremium": false
+      },
+      {
+        "platform": "NeetCode", "url": "", "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks", "title": "", "url": "", "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:20:00.000Z",
+    "updatedAt": "2025-06-25T10:20:00.000Z",
+    "related": [],
+    "company": []
+  },
+  {
+  "id": "lc-1229",
+  "type": "coding",
+  "question": "Meeting Scheduler",
+  "answer": "",
+  "subject": "DSA",
+  "category": "array",
+  "subcategory": "array line sweep",
+  "subSubcategory": "compare Two Intervals Each Round",
+  "status": "new",
+  "bookmarked": false,
+  "difficulty": "medium",
+  "tags": ["array", "interval", "two pointer", "merge"],
+  "codeSnippet": "",
+  "leetcodeId": "meeting-scheduler",
+  "sources": [
+    {
+      "platform": "LeetCode",
+      "id": "1229",
+      "slug": "meeting-scheduler",
+      "url": "https://leetcode.com/problems/meeting-scheduler/",
+      "ispremium": false
+    },
+    {
+      "platform": "LintCode", "id": "", "title": "", "url": "", "ispremium": false
+    },
+    {
+      "platform": "NeetCode", "url": "", "ispremium": false
+    },
+    {
+      "platform": "GeeksForGeeks", "title": "", "url": "", "ispremium": false
+    }
+  ],
+  "createdAt": "2025-06-25T10:25:00.000Z",
+  "updatedAt": "2025-06-25T10:25:00.000Z",
+  "related": [],
+  "company": []
+},
+  {
+    "id": "lc-253",
+    "type": "coding",
+    "question": "Meeting Rooms II",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array line sweep",
+    "subSubcategory": "use Heap to Store Previous Intervals States",
+    "status": "new",
+    "bookmarked": false,
+    "difficulty": "medium",
+    "tags": ["array", "heap", "interval", "priority queue"],
+    "codeSnippet": "",
+    "leetcodeId": "meeting-rooms-ii",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "253",
+        "slug": "meeting-rooms-ii",
+        "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode", "id": "", "title": "", "url": "", "ispremium": false
+      },
+      {
+        "platform": "NeetCode", "url": "", "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks", "title": "", "url": "", "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:25:00.000Z",
+    "updatedAt": "2025-06-25T10:25:00.000Z",
+    "related": [],
+    "company": []
+  },
+  {
+    "id": "lc-1851",
+    "type": "coding",
+    "question": "Minimum Interval to Include Each Query",
+    "answer": "",
+    "subject": "DSA",
+    "category": "array",
+    "subcategory": "array line sweep",
+    "subSubcategory": "use Heap to Store Previous Intervals States",
+    "status": "new",
+    "bookmarked": false,
+    "difficulty": "hard",
+    "tags": ["array", "heap", "interval", "sorting"],
+    "codeSnippet": "",
+    "leetcodeId": "minimum-interval-to-include-each-query",
+    "sources": [
+      {
+        "platform": "LeetCode",
+        "id": "1851",
+        "slug": "minimum-interval-to-include-each-query",
+        "url": "https://leetcode.com/problems/minimum-interval-to-include-each-query/",
+        "ispremium": false
+      },
+      {
+        "platform": "LintCode", "id": "", "title": "", "url": "", "ispremium": false
+      },
+      {
+        "platform": "NeetCode", "url": "", "ispremium": false
+      },
+      {
+        "platform": "GeeksForGeeks", "title": "", "url": "", "ispremium": false
+      }
+    ],
+    "createdAt": "2025-06-25T10:25:00.000Z",
+    "updatedAt": "2025-06-25T10:25:00.000Z",
+    "related": [],
+    "company": []
+  }
 
 
 ]
